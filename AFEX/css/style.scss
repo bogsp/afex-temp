@@ -1,0 +1,27 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./variables";
+@import "./maps";
+@import "./mixins";
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+        padding-left: 0;
+}
+.inline li {
+    display: inline;
+}
+footer .small {
+    font-size: .7rem;
+}
+@include respond-below(md) {
+    footer {
+      #links {
+        #solutions>div {
+                flex-direction: column;
+        }
+      }
+    }
+  }
