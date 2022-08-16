@@ -10931,6 +10931,18 @@ ul {
   padding-left: 0;
 }
 
+footer #afex-logo {
+  text-align: left;
+}
+footer #afex-logo a img {
+  width: 15vw;
+}
+footer #insights {
+  text-align: right;
+}
+footer #insights a {
+  width: 30vw;
+}
 footer .small {
   font-size: 0.7rem;
 }
@@ -10946,6 +10958,18 @@ footer #social-icons ul li {
 }
 
 @media (max-width: 991px) {
+  footer #afex-logo {
+    text-align: center;
+  }
+  footer #afex-logo a img {
+    width: 100%;
+  }
+  footer #insights {
+    text-align: center;
+  }
+  footer #insights a {
+    width: 100%;
+  }
   footer #copyright,
 footer #social-icons {
     text-align: center;

@@ -13,6 +13,22 @@ ul {
 }
 
 footer {
+  #afex-logo {
+    text-align: left;
+
+    a img {
+      width: 15vw;
+    }
+  }
+
+  #insights {
+    text-align: right;
+
+    a {
+      width: 30vw;
+    }
+  }
+
   .small {
     font-size: .7rem;
   }
@@ -33,11 +49,27 @@ footer {
 
 @include respond-below(md) {
   footer {
+    #afex-logo {
+      text-align: center;
+
+      a img {
+        width: 100%;
+      }
+    }
+
+    #insights {
+      text-align: center;
+
+      a {
+        width: 100%;
+      }
+    }
 
     #copyright,
     #social-icons {
       text-align: center;
     }
+
     #social-icons {
       padding: 0;
     }
