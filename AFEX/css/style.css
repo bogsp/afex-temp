@@ -10938,6 +10938,10 @@ nav div .navbar-brand img {
   width: 100%;
 }
 
+#partners img {
+  width: 30vw;
+}
+
 footer #afex-logo {
   text-align: left;
 }
@@ -10969,6 +10973,9 @@ footer #social-icons ul li {
     width: 30vw;
   }
   nav div .navbar-brand img {
+    width: 100%;
+  }
+  #partners img {
     width: 100%;
   }
   footer #afex-logo {
