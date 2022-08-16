@@ -10931,11 +10931,18 @@ ul {
   padding-left: 0;
 }
 
+nav div .navbar-brand {
+  width: 8vw;
+}
+nav div .navbar-brand img {
+  width: 100%;
+}
+
 footer #afex-logo {
   text-align: left;
 }
 footer #afex-logo a img {
-  width: 15vw;
+  width: 12vw;
 }
 footer #insights {
   text-align: right;
@@ -10958,6 +10965,12 @@ footer #social-icons ul li {
 }
 
 @media (max-width: 991px) {
+  nav div .navbar-brand {
+    width: 30vw;
+  }
+  nav div .navbar-brand img {
+    width: 100%;
+  }
   footer #afex-logo {
     text-align: center;
   }

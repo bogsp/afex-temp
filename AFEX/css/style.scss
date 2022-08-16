@@ -12,12 +12,24 @@ ul {
   padding-left: 0;
 }
 
+nav {
+  div {
+    .navbar-brand {
+      width: 8vw;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
 footer {
   #afex-logo {
     text-align: left;
 
     a img {
-      width: 15vw;
+      width: 12vw;
     }
   }
 
@@ -48,6 +60,18 @@ footer {
 }
 
 @include respond-below(md) {
+  nav {
+    div {
+      .navbar-brand {
+        width: 30vw;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
   footer {
     #afex-logo {
       text-align: center;
