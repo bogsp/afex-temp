@@ -1,27 +1,49 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./variables";
 @import "./maps";
 @import "./mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 ul {
-    list-style: none;
-        padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
-.inline li {
-    display: inline;
-}
-footer .small {
+
+footer {
+  .small {
     font-size: .7rem;
+  }
+
+  #copyright {
+    text-align: left;
+  }
+
+  #social-icons {
+    text-align: right;
+  }
+
+  #policies ul li,
+  #social-icons ul li {
+    display: inline;
+  }
 }
+
 @include respond-below(md) {
-    footer {
-      #links {
-        #solutions>div {
-                flex-direction: column;
-        }
-      }
+  footer {
+
+    #copyright,
+    #social-icons {
+      text-align: center;
+    }
+    #social-icons {
+      padding: 0;
+    }
+
+    #policies ul li {
+      display: block;
     }
   }
+}
