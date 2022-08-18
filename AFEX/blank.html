@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand link-light" href="./index.html">Asia Food Expo</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand link-light" href="./index.html"><img src="./img/afex2023_logo.png" alt="afex2023_logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-3">
                     <li class="nav-item">
                         <a class="nav-link active link-light" aria-current="page" href="./index.html">Home</a>
                     </li>
@@ -37,22 +37,22 @@
                             Plan Your Visit
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item link-light" href="#">Action</a></li>
-                            <li><a class="dropdown-item link-light" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item link-light" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link-light">Contact</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <!-- <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
         </div>
     </nav>
@@ -97,21 +97,21 @@
             </div>
         </section>
     </main>
-    <footer class="container-fluid bg-primary pt-5 px-5 pb-3 text-light">
+    <footer class="container-fluid bg-primary px-5 pt-5 pb-3 text-light">
         <div class="row p-5">
-            <div class="col-sm py-5 text-center">
-                <a href="#" class="link-light">Logo goes here</a>
+            <div id="afex-logo" class="col-sm">
+                <a href="./index.html" class="link-light"><img src="./img/afex2023_logo.png" alt="afex2023_logo"></a>
             </div>
-            <div class="col-sm text-center">
-                <a class="btn btn-outline-light" href="#" role="button">Sign up for fresh insights</a>
+            <div id="insights" class="col-sm py-5">
+                <a class="btn btn-light" href="#" role="button">Sign up for fresh insights</a>
             </div>
         </div>
-        <div id="links" class="row">
+        <div id="links" class="row px-5">
             <div id="solutions" class="col-lg-6 col-md-12 py-3">
                 <h5>Solutions</h5>
                 <hr>
-                <div class="d-flex flex-md-row flex-sm-column me-3">
-                    <div class="col">
+                <div class="row me-3">
+                    <div class="col-sm">
                         <strong>By Product Type</strong>
                         <ul>
                             <li>
@@ -214,13 +214,13 @@
             </div>
         </div>
         <hr>
-        <div class="row py-3">
-            <div class="col-lg text-center small">
+        <div class="row px-5 align-items-center">
+            <div id="copyright" class="col-lg small">
                 <p><strong>&copy; 2022 Asia Food Expo | Powered by: <a href="http://tedconoutsourcingcorp.com"
                             class="link-light" target="_blank">TedCon</a></strong></p>
             </div>
-            <div class="col-lg text-center small">
-                <ul class="inline">
+            <div id="policies" class="col-lg text-center small">
+                <ul>
                     <li class="mx-1">
                         <a href="#" class="link-light">Accessibility Statement</a>
                     </li>
@@ -235,8 +235,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg text-center">
-                <ul class="inline">
+            <div id="social-icons" class="col-lg ps-0 fs-4">
+                <ul>
                     <li class="mx-1">
                         <a href="#" class="link-light"><i class="fa-brands fa-facebook"></i></a>
                     </li>
